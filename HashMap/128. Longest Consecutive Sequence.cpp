@@ -6,6 +6,8 @@ public:
         int longest=1;
         
         for(int num:st){
+            
+            //this tell that this is the starting element
             if(st.find(num-1)==st.end()){
                 int length=1;
                 int curr=num;
